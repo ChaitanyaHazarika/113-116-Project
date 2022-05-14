@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/mustache-seamless-pattern-vector-isolated-wallpaper-background-graphic-mustache-seamless-pattern-vector-isolated-wallpaper-tile-125423231.jpg");
+}
+
+#heading {
+    font-size: xx-large;
+    font-family: 'Inconsolata', monospace;
+}
+.btn-success{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: x-large;
+}
+.btn-success:hover{
+    background: red;
+}
+canvas{
+    border: 2px solid black;
+    animation-name: changecolour;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes changecolour{
+    0%{box-shadow: 1px 1px 38px grey;}
+    50%{box-shadow: 1px 1px 38px red;}
+    100%{box-shadow: 1px 1px 38px grey;}
+
+}
